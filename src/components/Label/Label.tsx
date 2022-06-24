@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 type Props = {
-  color: 'indigo' | 'green';
+  color: 'indigo' | 'green' | 'fuchsia';
   name: string;
 };
 
@@ -13,6 +13,10 @@ const colors = {
   green: {
     bg: 'bg-green-200',
     text: 'text-green-700',
+  },
+  fuchsia: {
+    bg: 'bg-fuchsia-200',
+    text: 'text-fuchsia-700',
   },
 };
 
