@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+#root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+  overflow: auto;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
