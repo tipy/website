@@ -1,13 +1,24 @@
 import { FC } from 'react';
 
 type Props = {
-  color: string;
+  color: 'indigo' | 'green';
   name: string;
+};
+
+const colors = {
+  indigo: {
+    bg: 'bg-indigo-200',
+    text: 'text-indigo-700',
+  },
+  green: {
+    bg: 'bg-green-200',
+    text: 'text-green-700',
+  },
 };
 
 const Label: FC<Props> = ({ color, name }) => (
   <a
-    className={`bg-${color}-200 py-1 px-3 mb-2 rounded-2xl text-sm mr-2 text-${color}-700`}
+    className={`${colors[color].bg} py-1 px-3 mb-2 rounded-2xl text-sm mr-2 ${colors[color].text}`}
     target='_blank'
     rel='noopener noreferrer'
     href={`https://github.com/tipy/${name}`}
