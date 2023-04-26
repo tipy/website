@@ -5,7 +5,7 @@ import en from './assets/locales/en.json';
 import App from './App'
 import './index.css'
 
-init({ resource: en });
+init({ resources: [en] });
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

@@ -303,10 +303,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tipy/locale@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tipy/locale/-/locale-0.0.2.tgz#0d8acc8b221eaa2450d8cd8348f3a4f21d07ae13"
-  integrity sha512-dBe5CKNlIBmfQPqNa1LYQyBYEMpmRTfFuem6P8sesSmbSGvcqAypLGkBqNd8DQgSIF2/SaHhXeu4GKQ28QM3SQ==
+"@tipy/locale@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@tipy/locale/-/locale-0.1.1.tgz#f4eb1d3dde1071673e51ebce67d138e55ea2112d"
+  integrity sha512-uMpw0sFW7GZyQPXpiDowAjl1a6yEy1AycMWtI99NII9Qw3vbY+HvMbPfmS806FRU7ra8hrKXqRCinahSyu6t3w==
 
 "@types/prop-types@*":
   version "15.7.5"

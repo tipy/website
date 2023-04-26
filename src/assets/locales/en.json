@@ -1,3 +1,5 @@
 {
-  "description": "Tipy provides a set of useful libs to help developers on their daily basis tasks."
+  "main": {
+    "description": "Tipy provides a set of useful libs to help developers on their daily basis tasks."
+  }
 }
