@@ -12,6 +12,7 @@ const App = () => (
       <Label color='indigo' name='website' />
       <Label color='green' name='convert' />
       <Label color='fuchsia' name='locale' />
+      <Label color='yellow' name='observable' />
     </div>
   </div>
 );
