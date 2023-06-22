@@ -26,7 +26,7 @@ const colors = {
 
 const Label: FC<Props> = ({ color, name }) => (
   <a
-    className={`${colors[color].bg} py-1 px-3 mb-2 rounded-2xl text-sm mr-2 ${colors[color].text}`}
+    className={`${colors[color].bg} py-1 px-3 mb-2 rounded-2xl text-sm mr-2 ${colors[color].text} shadow-sm`}
     target='_blank'
     rel='noopener noreferrer'
     href={`https://github.com/tipy/${name}`}

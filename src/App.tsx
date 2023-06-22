@@ -14,6 +14,17 @@ const App = () => (
       <Label color='fuchsia' name='locale' />
       <Label color='yellow' name='observable' />
     </div>
+
+    <div className='flex flex-col items-center mt-6'>
+      <span className='text-sm'>You wanna buy me a coffee? ☕</span>
+      <a
+        href='https://www.paypal.com/donate/?hosted_button_id=RAY2DYX7MCTGJ'
+        target='_blank'
+        className='p-2 px-4 mt-2 bg-indigo-600 text-white rounded-3xl shadow-sm cursor-pointer hover:bg-indigo-500 text-sm'
+      >
+        Donate via PayPal
+      </a>
+    </div>
   </div>
 );
 
